@@ -84,7 +84,7 @@ header {
 
 .fondo {
     position: fixed; /* Cambia a fixed para asegurarte de que se muestre sobre el contenido */
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%); /* Centra el contenedor en la pantalla */
     width: 400px;
