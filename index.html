@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Paradise</title>
+</head>
+
+<body>
+    <header>
+        <h2 class="logo">Paradise</h2>
+        <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Información</a>
+            <a href="#">Servicios</a>
+            <a href="#">Contacto</a>
+            <button class="btn" id="loginButton">Iniciar Sesión</button>
+        </nav>
+    </header>
+
+    <div class="fondo">
+        <!-- Icono de cerrar -->
+        <div class="icono-cerrar" id="closeIcon">
+            <ion-icon name="close"></ion-icon>
+        </div>
+
+        <!-- Formulario de inicio de sesión -->
+        <div class="contenedor-form login active">
+            <h2>Iniciar Sesión</h2>
+            <form action="#">
+                <div class="contenedor-input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label for="#">Correo</label>
+                </div>
+                <div class="contenedor-input">
+                    <span class="icono"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label for="#">Contraseña</label>
+                </div>
+                <div class="recordar">
+                    <label for="#"><input type="checkbox"> Recordar contraseña</label>
+                    <a href="#">Olvidé la contraseña</a>
+                </div>
+                <button class="btn" type="submit">Iniciar Sesión</button>
+                <div class="registrar">
+                    <p>¿No tienes una cuenta con nosotros? <a href="#" class="registrar-link">Regístrate</a></p>
+                </div>
+            </form>
+        </div>
+
+        <!-- Formulario de registro -->
+        <div class="contenedor-form registrar">
+            <h2>Registrarse</h2>
+            <form action="#">
+                <div class="contenedor-input">
+                    <span class="icono"><ion-icon name="person"></ion-icon></span>
+                    <input type="text" required>
+                    <label for="#">Nombre de usuario</label>
+                </div>
+                <div class="contenedor-input">
+                    <span class="icono"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label for="#">Correo</label>
+                </div>
+                <div class="contenedor-input">
+                    <span class="icono"><ion-icon name="lock-closed"></ion-icon></span>
+                    <input type="password" required>
+                    <label for="#">Contraseña</label>
+                </div>
+                <div class="recordar">
+                    <label for="#"><input type="checkbox"> Acepto términos y condiciones</label>
+                </div>
+                <button type="submit" class="btn">Registrarme</button>
+                <div class="registrar">
+                    <p>¿Tienes una cuenta? <a href="#" class="login-link">Iniciar Sesión</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <!-- Tu script JS -->
+
+<script src="main.js"></script>
+   
+</body>
+
+</html>
